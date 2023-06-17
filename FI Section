@@ -36,6 +36,7 @@ WebDriver driver;
 		driver.findElement(By.xpath("//button[@id=\"loginbutton\"]")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.partialLinkText("501227")).click();
+		Thread.sleep(3000);
 		}
 	@Test(groups= {"techcapture"})
 	public void techcapture() throws InterruptedException {
